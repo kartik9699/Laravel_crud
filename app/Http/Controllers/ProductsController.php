@@ -67,7 +67,7 @@ class ProductsController extends Controller
      */
     public function edit(Products $products)
     {
-        //
+        return view('product.edit',['products'=>$products]);
     }
 
     /**

@@ -4,4 +4,5 @@
 <li>{{ $Product->description }}</li>
 <li>{{ number_format($Product->price,2) }}</li>
 <img src="{{ asset('storage/'.$Product->image) }}" alt="" srcset="" width="200px">
+
 @endforeach
